@@ -1,0 +1,55 @@
+.left-side {
+  float: left;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.right-side {
+  float: right;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.body-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.art-learn-more {
+  border-style: none;
+}
+
+.button-acquire,
+.button-propose {
+  width: 200px;
+}
+
+.button-acquire {
+  text-align: center;
+  float: left;
+}
+
+.button-propose {
+  float: right;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.img-container button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
